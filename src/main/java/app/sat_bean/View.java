@@ -89,7 +89,7 @@ public class View extends JTextField {
     dialog.setUndecorated(true);
     dialog.getRootPane().setOpaque(false);
     dialog.setBackground(new Color (0, 0, 0, 0));
-    dialog.setLocation(100, 100);
+    dialog.setLocation(800, 500);
 
     ScheduledExecutorService s = Executors.newSingleThreadScheduledExecutor();
     s.schedule(new Runnable() {

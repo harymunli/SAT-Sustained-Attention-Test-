@@ -98,10 +98,9 @@ public class TestResult {
     record.add(Integer.toString(b));
     record.add(Integer.toString(s));
     record.add(Integer.toString(m));
-    record.add(Float.toString(pb));
-    record.add(Float.toString(ps));
-    record.add(Float.toString(pm));
-    
+    record.add(String.format("%,.2f", pb));
+    record.add(String.format("%,.2f", ps));
+    record.add(String.format("%,.2f", pm));
     for (int i = 0; i < this.listAns.size(); i++) {
       record.add(Double.toString(((Integer)((ArrayList<Integer>)this.listAns.get(i)).get(0)).intValue() / 1000.0D));
       if (((Integer)((ArrayList<Integer>)this.listAns.get(i)).get(1)).intValue() == 1) {

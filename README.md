@@ -3,7 +3,8 @@ Java GUI Application
 
 ## Feature
 - Aplikasi akan menampilkan angka 0-9 dan jika terdapat angka yang tidak terurut dengan sebelumnya, pengguna wajib menekan tombol spasi.
-- Aplikasi selesai sesuai dengan input durasi di awal screen. 
+- Aplikasi selesai sesuai dengan input durasi di awal screen.
+- Export data terkait tes dalam bentuk format excel.
 
 ## Tech Stack
 - Java Swing (GUI framework)

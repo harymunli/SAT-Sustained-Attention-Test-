@@ -1,5 +1,5 @@
 # Sustained-Attention-Test
-Java GUI Application
+Aplikasi Java GUI (Graphical User Interface)
 
 ## Feature
 - Aplikasi akan menampilkan angka 0-9 dan jika terdapat angka yang tidak terurut dengan sebelumnya, pengguna wajib menekan tombol spasi.
